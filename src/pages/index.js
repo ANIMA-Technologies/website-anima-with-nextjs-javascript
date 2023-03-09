@@ -1,7 +1,8 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
-import QuiSommesNous from '@/components/quiSommesNous/QuiSommesNous'
-// import { Inter } from 'next/font/google'
+import NosServices from '@/components/NosServices'
+import Portfolio from '@/components/Portfolio'
+import QuiSommesNous from '@/components/QuiSommesNous'
 import Head from 'next/head'
 
 
@@ -16,6 +17,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <QuiSommesNous />
+      <NosServices />
+      <Portfolio />
       <Footer />
     </>
   )
