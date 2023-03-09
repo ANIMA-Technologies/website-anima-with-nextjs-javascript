@@ -1,0 +1,36 @@
+.title {
+  color: #e8750d;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.serviceTitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.serviceDescription {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  text-align: justify;
+
+  color: #ffffff;
+}
