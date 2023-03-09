@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
+import QuiSommesNous from '@/components/quiSommesNous/QuiSommesNous'
 // import { Inter } from 'next/font/google'
 import Head from 'next/head'
 
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <QuiSommesNous />
       <Footer />
     </>
   )

@@ -1,0 +1,21 @@
+.imgQuiSommesNous {
+  background: url(../assets/images/image102.png) center center/cover no-repeat;
+  height: 434px;
+}
+
+.title {
+  color: #e8750d;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
