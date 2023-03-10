@@ -1,8 +1,3 @@
-.containerFluid {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: rgba(31, 26, 75, 1);
-}
 .logo{
   width: 50px;
   height: 50px;
@@ -11,7 +6,7 @@
   color: white !important;
   font-weight: bold;
 }
-.nav-item{
+.navItem{
   margin-left: 30px;
   font-size: 14px !important;
 }
@@ -39,7 +34,7 @@
   cursor: pointer;
 }
 
-.dropdown-item1{
+.dropdownItem1{
     padding-top: 4px;
     padding-bottom: 4px;
     /* padding-right: 207px; */
@@ -49,7 +44,7 @@
   .nav-item{
     margin-left: 0 !important;
   }
-  .dropdown-item1 {
+  .dropdownItem1 {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 0;
@@ -67,7 +62,7 @@
   .nav-item{
     margin-left: 0 !important;
   }
-  .dropdown-item1 {
+  .dropdownItem1 {
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 0;
@@ -89,14 +84,14 @@
     color: rgba(0, 0, 0, 0.6);
 ;
   }
-   .dropdown-item0{
+   .dropdownItem0{
     padding-top: 4px;
     padding-bottom: 4px;
     padding-right: 0;
     font-weight: bold;
     font-family: sans-serif;
 }
- .dropdown-item1 {
+ .dropdownItem1 {
     padding-top: 4px;
     padding-bottom: 4px;
     padding-right: 0;
@@ -148,16 +143,16 @@
   background-color: rgba(216, 21, 110, 0.4) !important;
   cursor: pointer;
 }
-.dropdown-item0{
+.dropdownItem0{
   padding-left: 24px;
 }
-.dropdown-item1{
+.dropdownItem1{
     padding-top: 4px;
     padding-bottom: 4px;
     padding-right: 218px;
 
 }
-.dropdownToggle::after{
+.dropdown-toggle::after{
   display: none;
 }
 }
