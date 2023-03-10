@@ -101,6 +101,11 @@ a {
   text-decoration: none;
 }
 
+.container-fluid {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
 
 /* @media (prefers-color-scheme: dark) {
   html {
