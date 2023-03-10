@@ -15,7 +15,7 @@
 }
 
 .dropdown1{
-  /* display: block; */
+  display: block;
   margin-left: -97px;
   margin-top: -3px;
   padding-top: 0;
@@ -133,7 +133,7 @@
 
 .dropdown1{
   /* display: block; */
-  margin-left: -65px;
+  margin-left: -85px;
   margin-top: -3px;
   padding-top: 0;
   padding-bottom: 0;

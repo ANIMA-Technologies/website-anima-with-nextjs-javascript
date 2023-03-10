@@ -12,7 +12,7 @@ const Header = () => {
           <div className={styles.boutton2}>
             <button className={styles.btn_header}>
               <div className={styles.i_btn}>
-                <i className={`fa fa-calendar ${styles.i_btn}`}></i>
+                <i className='fa fa-calendar'  id={styles.i_btn}></i>
               </div>
               <div className={styles.p_btn}>
                 <p>Besoin de plus d’information?</p>
@@ -20,7 +20,7 @@ const Header = () => {
             </button>
             <button className={styles.btn_header1}>
               <div className={styles.i_btn1}>
-                <i className={`fa fa-phone ${styles.i_btn}`}></i>
+                <i className="fa fa-phone" id={styles.i_btn}></i>
               </div>
               <div className={styles.p_btn1}>
                 <p>Discutons de vos projets !</p>

@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import NosServices from '@/components/NosServices'
 import Portfolio from '@/components/Portfolio'
 import QuiSommesNous from '@/components/QuiSommesNous'
+import Header from '@/components/header/Header'
 import Head from 'next/head'
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <Header />
       <QuiSommesNous />
       <NosServices />
       <Portfolio />
