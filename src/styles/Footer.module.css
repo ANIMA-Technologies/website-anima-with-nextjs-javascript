@@ -1,3 +1,92 @@
-.container {
-  background-color: blue;
+.footerContainer {
+  margin-top: 50px;
+  height: 599px;
+  background-color: #090c3a;
+}
+
+.joinUs {
+  background-color: rgba(236, 219, 186, 0.1);
+  padding: 32px;
+}
+
+.joinUs h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.joinUs p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.inputEmail {
+  width: 312px;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px 24px;
+  outline: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.btnEmail {
+  width: 136px;
+  height: 64px;
+  background-color: #d8156e;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.contact a {
+  width: 273px;
+  height: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 480px) {
+  .joinUs {
+    margin-left: 0 !important;
+  }
+
+  .joinUs form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btnEmail {
+    border-radius: 5px;
+  }
+
+  .footerLogo {
+    height: auto;
+  }
 }

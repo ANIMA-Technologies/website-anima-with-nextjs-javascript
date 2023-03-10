@@ -22,13 +22,13 @@ const NosServices = () => {
             </p>
           </div>
           <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
-            <Image src={Frame3} height={400} alt='frame3-img' className='w-75' />
+            <Image src={Frame3} alt='frame3-img' className='w-100 h-auto' />
           </div>
         </div>
         {/* ******************************************************************************* */}
         <div className={`row align-items-center justify-content-center px-4 ${styles.service}`}>
           <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
-            <Image src={Frame} height={400} alt='frame3-img' className='w-75' />
+            <Image src={Frame} alt='frame3-img' className='w-100 h-auto' />
           </div>
           <div className="col-12 col-md-8">
             <h2 className={`${styles.serviceTitle}`}>Développement MOBILE</h2>
@@ -53,13 +53,13 @@ const NosServices = () => {
             </p>
           </div>
           <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
-            <Image src={Frame1} height={400} alt='frame1-img' className='w-75' />
+            <Image src={Frame1} alt='frame1-img' className='w-100 h-auto' />
           </div>
         </div>
         {/* ******************************************************************************* */}
         <div className={`row align-items-center justify-content-center px-4 ${styles.service}`}>
           <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
-            <Image src={Frame4} height={400} alt='frame4-img' className='w-75' />
+            <Image src={Frame4} alt='frame4-img' className='w-100 h-auto' />
           </div>
           <div className="col-12 col-md-8">
             <h2 className={`${styles.serviceTitle}`}>Conseils et consultation</h2>
@@ -85,7 +85,7 @@ const NosServices = () => {
             </p>
           </div>
           <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
-            <Image src={Frame5} height={400} alt='frame5-img' className='w-75' />
+            <Image src={Frame5} alt='frame5-img' className='w-100 h-auto' />
           </div>
         </div>
       </div>
