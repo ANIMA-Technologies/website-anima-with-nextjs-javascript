@@ -73,7 +73,9 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-.description4, .description5, .description6 {
+.description4,
+.description5,
+.description6 {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;

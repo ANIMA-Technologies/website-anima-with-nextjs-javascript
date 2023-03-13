@@ -1,0 +1,10 @@
+.ruban {
+  width: 417px;
+  height: 49px;
+  margin-left: -80px;
+  background: linear-gradient(
+    89.51deg,
+    rgba(219, 207, 228, 0.52) -19.02%,
+    rgba(217, 217, 217, 0) 63.09%
+  );
+}

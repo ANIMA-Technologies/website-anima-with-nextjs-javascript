@@ -1,3 +1,4 @@
+import Ruban from '@/components/Ruban'
 import Image from 'next/image'
 import Img1 from '../../../src/assets/images/devweb/1.png'
 import Img2 from '../../../src/assets/images/devweb/2.png'
@@ -26,6 +27,7 @@ const DevWeb = () => {
           <Image src={Bg} alt="" className="w-100 h-100" />
         </div>
       </div>
+      <Ruban />
       <div className="row align-items-center justify-content-center px-4">
         <div className={`col-12 col-md-6 ${styles.imgDevWeb}`}>
           <Image src={Img1} alt="" className="w-100 h-100" />
