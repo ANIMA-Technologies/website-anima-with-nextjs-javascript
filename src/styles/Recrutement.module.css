@@ -1,0 +1,65 @@
+.header {
+  background: url('../assets/images/recrutement/bg.png') center center/cover
+    no-repeat;
+  height: 600px;
+  padding-left: 50px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 102px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.recrutementTitle {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: capitalize;
+
+  color: #e8750d;
+}
+
+.recrutementDescription {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btnVoirOffre {
+  text-decoration: none;
+  width: 132px;
+  height: 44px;
+  padding: 12px 24px;
+  background-color: #d8156e;
+  border-radius: 40px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.header p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
