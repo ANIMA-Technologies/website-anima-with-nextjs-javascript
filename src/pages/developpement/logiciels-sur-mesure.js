@@ -1,6 +1,7 @@
 import Ruban from "@/components/Ruban"
 import Image from "next/image"
 
+import OutilsEtTechnologies from "@/components/OutilsEtTechnologies"
 import Img1 from '../../../src/assets/images/devlogiciel/1.png'
 import Img2 from '../../../src/assets/images/devlogiciel/2.png'
 import Img3 from '../../../src/assets/images/devlogiciel/3.png'
@@ -104,6 +105,7 @@ const DevLogicielSurMesure = () => {
           <Image src={Img4} alt="Img4" className="w-100 h-100 px-0" />
         </div>
       </div>
+      <OutilsEtTechnologies />
     </div>
   )
 }
