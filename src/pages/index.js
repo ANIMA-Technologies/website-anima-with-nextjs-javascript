@@ -1,5 +1,4 @@
 import Footer from '@/components/Footer'
-import Navbar from '@/components/Navbar'
 import NosServices from '@/components/NosServices'
 import Portfolio from '@/components/Portfolio'
 import QuiSommesNous from '@/components/QuiSommesNous'
@@ -16,7 +15,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
       <Header />
       <QuiSommesNous />
       <NosServices />
