@@ -10,10 +10,10 @@ import styles from '../../styles/DevWeb.module.css'
 
 const DevWeb = () => {
   return (
-    <div className="container-fluid">
-      <div className="row align-items-center justify-content-center px-4">
+    <div className="container-fluid containerFluid bgGradient">
+      <div className="row flex-column-reverse flex-md-row align-items-center justify-content-center px-4">
         <div className="col-12 col-md-6">
-          <h2 className={styles.title}>
+          <h2 className={`d-none d-md-block ${styles.title}`}>
             Développement <br />
             <span>Web</span>
           </h2>
@@ -24,7 +24,11 @@ const DevWeb = () => {
           </p>
         </div>
         <div className={`col-12 col-md-6 ${styles.imgDevWeb}`}>
-          <Image src={Bg} alt="" className="w-100 h-100" />
+          <h2 className={`d-md-none ${styles.title}`}>
+            Développement <br />
+            <span>Web</span>
+          </h2>
+          <Image src={Bg} alt="Bg" className="w-100 h-100" />
         </div>
       </div>
       <Ruban />
@@ -56,8 +60,8 @@ const DevWeb = () => {
           </p>
         </div>
       </div>
-      <div className="row align-items-center justify-content-center mt-5">
-        <div className="col-12 w-75">
+      <div className="row align-items-center justify-content-center mt-5 m-4 m-md-0">
+        <div className="col-12 px-0 w-md-75">
           <h2 className={`${styles.title3}`}>Quelles sont les étapes du développement d&apos;une application web?</h2>
           <p className={`${styles.description3}`}>
             Les grandes étapes du développement d&apos;une application web sont importantes car elles
@@ -66,7 +70,7 @@ const DevWeb = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description4}`}>
+      <div className={`row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description4}`}>
         <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
           <Image src={Img2} alt="" className="w-100 h-100 px-0" />
         </div>
@@ -79,7 +83,7 @@ const DevWeb = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description5}`}>
+      <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description5}`}>
         <div className={`col-12 col-md-6`}>
           <p>
             <span className={styles.subtitleDescription4}>Rédaction du cahier des charges : </span>
@@ -92,7 +96,7 @@ const DevWeb = () => {
           <Image src={Img3} alt="" className="w-100 h-100 px-0" />
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description5}`}>
+      <div className={`row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description5}`}>
         <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
           <Image src={Img4} alt="img-4" className="w-100 h-100 px-0" />
         </div>
@@ -107,7 +111,7 @@ const DevWeb = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description6}`}>
+      <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center mx-4 mx-md-0 px-0 ${styles.description6}`}>
         <div className={`col-12 col-md-6`}>
           <p>
             <span className={styles.subtitleDescription4}>Déploiement : </span>

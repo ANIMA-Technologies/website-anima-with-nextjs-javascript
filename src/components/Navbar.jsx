@@ -4,7 +4,7 @@ import styles from "../styles/Navbar.module.css";
 import style from "../styles/StyleForAll.module.css";
 const Navbar = () => {
   return (
-    <div className={`"container-fluid" ${style.containerFluid}`}>
+    <div className={`container-fluid px-4 px-md-5 containerFluid ${style.containerFluid}`}>
       <nav className="navbar navbar-expand-lg navbar-light">
  
           <Link className="navbar-brand" href="/">
@@ -37,13 +37,13 @@ const Navbar = () => {
                   <i className="fa fa-angle-down ms-1 font-weight-bold" aria-hidden="true"></i>
                 </a>
                 <ul className={`dropdown-menu ${styles.dropdown2}`} aria-labelledby="navbarDropdown">
-                  <li><a className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem1}`} href="#">Réalisations</a></li>
-                  <li><a className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem1}`} href="#">L’équipe</a></li>
-                  <li><a className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem1}`} href="#">Recrutement</a></li>
+                  <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem1}`} href="/realisations">Réalisations</Link></li>
+                  <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem1}`} href="/equipe">L’équipe</Link></li>
+                  <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem1}`} href="/recrutement">Recrutement</Link></li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className={`nav-link  ${styles.navLink}  active`} href="#">Contact</a>
+                <Link className={`nav-link  ${styles.navLink}  active`} href="/contact">Contact</Link>
               </li>
             </ul>
           </div>

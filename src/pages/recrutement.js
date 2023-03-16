@@ -11,18 +11,14 @@ const Recrutement = () => {
     <div className={`w-100 ${styles.recrutement}`}>
       <div className={`row align-items-center justify-content-center ${styles.header}`}>
         <h2 className={`${styles.title}`}>Nos <br /> recrutements</h2>
-        <div>
-          <p>
-            Rejoignez-nous
-          </p>
-          <p>
-            Opportunités proposées par l’agence web Sokeo. Postes basés à Marseille 13001
-          </p>
-        </div>
+        <p>
+          Rejoignez-nous !<br />
+          Opportunités proposées par l’agence Web ANIMA Technologie. Postes basés à Antananarivo - MADAGASCAR
+        </p>
       </div>
-      <div className="row align-items-center justify-content-center px-4">
+      <div className="row flex-column-reverse flex-md-row align-items-center justify-content-center">
         <div className="col-12 col-md-6">
-          <h2 className={styles.recrutementTitle}>
+          <h2 className={`w-100 ${styles.recrutementTitle}`}>
             Développeur PHP Back End à Marseille en CDI
           </h2>
           <p className={styles.recrutementDescription}>
@@ -36,7 +32,7 @@ const Recrutement = () => {
           <Image src={Img1} alt="Image 1" className="w-100 h-100" />
         </div>
       </div>
-      <div className="row align-items-center justify-content-center px-4">
+      <div className="row align-items-center justify-content-center">
         <div className={`col-12 col-md-6 ${styles.imgDevWeb}`}>
           <Image src={Img2} alt="Image 2" className="w-100 h-100" />
         </div>
@@ -49,10 +45,10 @@ const Recrutement = () => {
             Missions Développement pour nos clients ou nos projets internes Tests et recettes Mise en production Maintenance corrective et évolutive Ce stage est idéal pour les
             Missions Développement pour nos clients ou nos projets internes Tests et recettes Mise en production Maintenance corrective et évolutive Ce stage est idéal pour les
           </p>
-          <Link className={`float-end ${styles.btnVoirOffre}`} href="/recrutement/titre-offre">Voir l&apos;offre</Link>
+          <Link className={`float-md-end ${styles.btnVoirOffre}`} href="/recrutement/titre-offre">Voir l&apos;offre</Link>
         </div>
       </div>
-      <div className="row align-items-center justify-content-center px-4">
+      <div className="row flex-column-reverse flex-md-row align-items-center justify-content-center">
         <div className="col-12 col-md-6">
           <h2 className={styles.recrutementTitle}>
             Développeur PHP Back End à Marseille en CDI
@@ -68,7 +64,7 @@ const Recrutement = () => {
           <Image src={Img3} alt="Image 3" className="w-100 h-100" />
         </div>
       </div>
-      <div className="row align-items-center justify-content-center px-4">
+      <div className="row align-items-center justify-content-center">
         <div className={`col-12 col-md-6 ${styles.imgDevWeb}`}>
           <Image src={Img4} alt="Image 4" className="w-100 h-100" />
         </div>
@@ -81,7 +77,7 @@ const Recrutement = () => {
             Missions Développement pour nos clients ou nos projets internes Tests et recettes Mise en production Maintenance corrective et évolutive Ce stage est idéal pour les
             Missions Développement pour nos clients ou nos projets internes Tests et recettes Mise en production Maintenance corrective et évolutive Ce stage est idéal pour les
           </p>
-          <Link className={`float-end ${styles.btnVoirOffre}`} href="/recrutement/titre-offre">Voir l&apos;offre</Link>
+          <Link className={`float-md-end ${styles.btnVoirOffre}`} href="/recrutement/titre-offre">Voir l&apos;offre</Link>
         </div>
       </div>
     </div>

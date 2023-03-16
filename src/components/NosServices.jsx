@@ -8,10 +8,10 @@ import styles from '../styles/NosServices.module.css'
 
 const NosServices = () => {
   return (
-    <div className="container-fluid mt-5">
+    <div className={`container-fluid containerFluid pt-5 ${styles.bgColor}`}>
       <h2 className={`text-center ${styles.title}`}>Nos Services</h2>
       <div className={`mt-5 ${styles.services}`}>
-        <div className={`row align-items-center justify-content-center px-4 ${styles.service}`}>
+        <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center px-4 ${styles.service}`}>
           <div className="col-12 col-md-8">
             <h2 className={`${styles.serviceTitle}`}>Développement web</h2>
             <p className={`${styles.serviceDescription}`}>
@@ -41,7 +41,7 @@ const NosServices = () => {
           </div>
         </div>
         {/* ******************************************************************************* */}
-        <div className={`row align-items-center justify-content-center px-4 ${styles.service}`}>
+        <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center px-4 ${styles.service}`}>
           <div className="col-12 col-md-8">
             <h2 className={`${styles.serviceTitle}`}>Développement de logiciels sur mesure</h2>
             <p className={`${styles.serviceDescription}`}>
@@ -73,7 +73,7 @@ const NosServices = () => {
           </div>
         </div>
         {/* ******************************************************************************* */}
-        <div className={`row align-items-center justify-content-center px-4 ${styles.service}`}>
+        <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center px-4 ${styles.service}`}>
           <div className="col-12 col-md-8">
             <h2 className={`${styles.serviceTitle}`}>Design de marque</h2>
             <p className={`${styles.serviceDescription}`}>

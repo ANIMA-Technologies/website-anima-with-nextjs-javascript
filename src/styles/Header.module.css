@@ -1,52 +1,44 @@
-.container{
+.container {
   width: 100% !important;
 }
 .banner {
-    width: 100%;
-    height: 100vh;
-    background-image: url(/imagesAnima/acceuil/Background.png);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    padding-top: 0;
-    
+  width: 100%;
+  height: 100vh;
+  background: url(/imagesAnima/acceuil/Background.png) center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
 }
 
-.banner1{
+.banner1 {
   margin-top: -90px;
-  
 }
-.banner_text1{
+.banner_text1 {
   width: 716px;
   height: 204px;
   /* background-color: red; */
-
-
 }
-.text_banner{
+.text_banner {
   line-height: 76.4px;
-      margin-bottom: 0 !important;
-
+  margin-bottom: 0 !important;
 }
-.anima , .techno{
+.anima,
+.techno {
   color: white;
   font-size: 84px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
 }
-.anima{
-    text-transform: uppercase;
-    font-weight: 900 ;
-    color: #E8750D;
+.anima {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e8750d;
 }
-.techno{
-    /* text-transform: lowercase; */
-    font-weight: 800 ;
-
+.techno {
+  /* text-transform: lowercase; */
+  font-weight: 800;
 }
-.text_banner1{
+.text_banner1 {
   width: 716px;
   height: 44px;
   font-family: 'Montserrat';
@@ -54,12 +46,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 1;
-  flex-grow: 0
+  flex-grow: 0;
 }
-.btn_header{
+.btn_header {
   width: 337px;
   height: 48px;
   display: flex;
@@ -67,12 +59,12 @@
   align-items: center;
   padding: 12px 24px;
   gap: 18px;
-  background: #D8156E;
+  background: #d8156e;
   border-radius: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   border: transparent;
 }
-.i_btn{
+.i_btn {
   width: 247px;
   height: 20px;
   font-family: 'Montserrat';
@@ -82,10 +74,9 @@
   line-height: 20px;
   text-align: center;
   margin-left: -58px;
-
 }
 
-.p_btn{
+.p_btn {
   width: 444px;
   height: 20px;
   font-family: 'Montserrat';
@@ -96,13 +87,13 @@
   text-align: center;
   margin-left: -89px;
 }
-.boutton2{
+.boutton2 {
   display: flex;
 }
 
 /* ***************le bouton anak 2 *******  */
 
-.btn_header1{
+.btn_header1 {
   width: 337px;
   height: 48px;
   display: flex;
@@ -111,11 +102,11 @@
   padding: 12px 24px;
   gap: 18px;
   background: transparent;
-  border: 1px solid #D8156E;
+  border: 1px solid #d8156e;
   border-radius: 40px;
   margin-left: 20px;
 }
-.i_btn1{
+.i_btn1 {
   width: 247px;
   height: 20px;
   font-family: 'Montserrat';
@@ -124,12 +115,11 @@
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-  color: #D8156E;
+  color: #d8156e;
   margin-left: -58px;
-
 }
 
-.p_btn1{
+.p_btn1 {
   width: 444px;
   height: 20px;
   font-family: 'Montserrat';
@@ -139,7 +129,50 @@
   line-height: 20px;
   text-align: center;
   margin-left: -89px;
-  color: #D8156E;
+  color: #d8156e;
 }
 
+.p_btn p a {
+  text-decoration: none;
+  color: inherit;
+}
 
+.p_btn1 p a {
+  color: #d8156e;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 575px) {
+  .anima,
+  .techno {
+    font-size: 40px;
+  }
+
+  .banner_text1,
+  .text_banner1,
+  .boutton2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .text_banner {
+    line-height: 35px;
+    padding-left: 30px;
+  }
+
+  .text_banner1 {
+    margin: 50px 0px;
+    text-align: center;
+    padding: 0px 30px;
+  }
+
+  .boutton2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .btn_header1 {
+    margin-left: 0;
+  }
+}

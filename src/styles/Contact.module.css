@@ -1,0 +1,72 @@
+.contact {
+  padding-bottom: 50px;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #828282;
+}
+
+.inputGroup button {
+  border: none;
+  background-color: #141f9c;
+  border-radius: 4px;
+  /* font-family: 'Mada'; */
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  height: 49px;
+}
+
+.bg img {
+  width: 40%;
+  object-fit: cover;
+  height: 80%;
+}
+
+.pinkBg {
+  background-color: #d8156e;
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+}
+
+/****************************************************/
+/********************RESPONSIVE**********************/
+/****************************************************/
+
+@media screen and (max-width: 575px) {
+  .title {
+    font-size: 35px;
+    line-height: 45px;
+    padding: 20px 0px;
+    margin: 0;
+  }
+
+  .bgImg {
+    height: 200px;
+    object-fit: cover;
+  }
+}

@@ -1,3 +1,7 @@
+.bgColor {
+  background: linear-gradient(101deg, #150b42 5.02%, #3d065f 96.31%);
+}
+
 .imgQuiSommesNous {
   background: url(../assets/images/image102.png) center center/cover no-repeat;
   height: 434px;
@@ -19,4 +23,15 @@
   font-size: 18px;
   line-height: 24px;
   text-align: justify;
+}
+
+@media screen and (max-width: 575px) {
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
 }

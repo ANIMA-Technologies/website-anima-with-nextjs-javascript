@@ -99,3 +99,42 @@
   font-weight: 700;
   color: #e8750d;
 }
+
+@media screen and (max-width: 575px) {
+  .title {
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
+  }
+
+  .title2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .title3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .description4,
+  .description5,
+  .description6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  /* .imgDevWeb {
+    border-radius: 40px 40px 0px 0px;
+    overflow: hidden;
+  } */
+
+  .description4 {
+    border-radius: 40px 40px 0px 0px;
+    overflow: hidden;
+  }
+
+  .description6 {
+    border-radius: 0px;
+  }
+}

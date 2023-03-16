@@ -2,7 +2,7 @@ import styles from '../styles/QuiSommesNous.module.css';
 
 const QuiSommesNous = () => {
   return (
-    <div className="container-fluid">
+    <div className={`container-fluid containerFluid ${styles.bgColor}`}>
       <div className="row align-items-center justify-content-center px-4">
         <div className={`col-12 col-md-6 ${styles.imgQuiSommesNous}`}></div>
         <div className="col-12 col-md-6">

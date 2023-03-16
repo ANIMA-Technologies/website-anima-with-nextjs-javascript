@@ -13,7 +13,7 @@ const Footer = () => {
     <div className={`container-fluid gx-0 sticky-bottom ${styles.footerContainer}`}>
       <div className="row gx-0 h-100 align-items-center justify-content-center">
         <div className="col-12 col-md-6 d-flex flex-column align-items-center">
-          <div className={`ms-5 ${styles.joinUs}`}>
+          <div className={`ms-md-5 ${styles.joinUs}`}>
             <h2>JOIGNEZ-NOTRE ÉQUIPE</h2>
             <p>
               ANIMA Technologie est une entreprise de développement informatique qui propose de 
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         <div className="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
           <Image src={LogoFooter} alt="LogoFooter" className={`w-50 ${styles.footerLogo}`} />
-          <div className={`mt-5 d-flex flex-wrap gap-1 ${styles.contact}`}>
+          <div className={`my-5 my-md-0 d-flex flex-column flex-md-row flex-md-wrap gap-4 gap-md-1 ${styles.contact}`}>
             <a href="tel:+261346215300">
               <Image src={Phone} alt='Phone icon' />
               <span className="ms-1">+261 33 00 000 00 / +261 34 00 000 00</span>

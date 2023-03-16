@@ -22,6 +22,10 @@
   color: #ffffff;
 }
 
+.imgDesignDeMarque img {
+  object-fit: cover;
+}
+
 .title2 {
   font-family: 'Montserrat';
   font-style: normal;
@@ -85,4 +89,48 @@
 .subtitleDescription4 {
   font-weight: 700;
   color: #e8750d;
+}
+
+@media screen and (max-width: 575px) {
+  /* .imgDesignDeMarque {
+    border-radius: 40px 40px 0px 0px;
+    overflow: hidden;
+  } */
+
+  .title1 {
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
+  }
+
+  .title2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .title3 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .description2 {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .description4,
+  .description5,
+  .description6 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .description4 {
+    border-radius: 40px 40px 0px 0px;
+    overflow: hidden;
+  }
+
+  .description6 {
+    border-radius: 0px;
+  }
 }

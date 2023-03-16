@@ -162,7 +162,7 @@
     padding-right: 218px;
 
 }
-.dropdown-toggle::after{
+.dropdownToggle::after{
   display: none;
 }
 }

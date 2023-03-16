@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer'
 import NosServices from '@/components/NosServices'
 import Portfolio from '@/components/Portfolio'
 import QuiSommesNous from '@/components/QuiSommesNous'
@@ -19,7 +18,6 @@ export default function Home() {
       <QuiSommesNous />
       <NosServices />
       <Portfolio />
-      <Footer />
     </>
   )
 }

@@ -1,0 +1,25 @@
+.equipe {
+  background-color: #a5a5a5;
+  /* height: 100vh; */
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.bg {
+  object-fit: cover;
+}
+
+.bg1 {
+  margin-top: -50px;
+}

@@ -1,3 +1,7 @@
+.bgColor {
+  background: linear-gradient(101deg, #150b42 5.02%, #3d065f 96.31%);
+}
+
 .title {
   color: #e8750d;
   font-family: 'Montserrat', sans-serif;
@@ -33,4 +37,17 @@
   text-align: justify;
 
   color: #ffffff;
+}
+
+@media screen and (max-width: 575px) {
+  .serviceTitle {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .serviceDescription {
+  text-align: center;
+}
 }

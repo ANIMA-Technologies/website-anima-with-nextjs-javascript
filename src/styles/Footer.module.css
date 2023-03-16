@@ -1,5 +1,5 @@
 .footerContainer {
-  margin-top: 50px;
+  padding-top: 50px;
   height: 599px;
   background-color: #090c3a;
 }
@@ -70,7 +70,11 @@
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 575px) {
+  .footerContainer {
+    height: auto;
+  }
+
   .joinUs {
     margin-left: 0 !important;
   }

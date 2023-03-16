@@ -93,7 +93,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
-  background: linear-gradient(101deg, #150B42 5.02%, #3D065F 96.31%)
 }
 
 a {
@@ -106,9 +105,12 @@ a {
   padding-right: 80px !important;
 }
 
+.bgGradient {
+  background: linear-gradient(101deg, #150b42 5.02%, #3d065f 96.31%);
+}
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@media screen and (max-width: 575px) {
+  .containerFluid {
+    padding: 0 !important;
   }
-} */
+}

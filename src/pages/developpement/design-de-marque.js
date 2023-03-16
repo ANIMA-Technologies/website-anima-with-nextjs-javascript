@@ -10,10 +10,10 @@ import styles from '../../styles/DesignDeMarque.module.css'
 
 const DesignDeMarque = () => {
   return (
-    <div className="container-fluid">
-      <div className="row align-items-center justify-content-center px-4 mb-5">
+    <div className="container-fluid containerFluid bgGradient">
+      <div className="row flex-column-reverse flex-md-row align-items-center justify-content-center px-4 mb-5">
         <div className="col-12 col-md-6">
-          <h2 className={styles.title1}>
+          <h2 className={`d-none d-md-block ${styles.title1}`}>
             Design <br />
             <span>de marque</span>
           </h2>
@@ -26,14 +26,18 @@ const DesignDeMarque = () => {
             de votre entreprise en ligne.
           </p>
         </div>
-        <div className={`col-12 col-md-6 ${styles.imgDevWeb}`}>
-          <Image src={Bg} alt="" className="w-100 h-100" />
+        <div className={`col-12 col-md-6 ${styles.imgDesignDeMarque}`}>
+          <h2 className={`d-md-none ${styles.title1}`}>
+            Design <br />
+            <span>de marque</span>
+          </h2>
+          <Image src={Bg} alt="" className="w-100 h-100 my-4 my-md-0" />
         </div>
       </div>
       <Ruban />
       <div className="row align-items-center justify-content-center px-4">
-        <div className={`col-12 col-md-6 ${styles.imgDevWeb}`}>
-          <Image src={Img1} alt="" className="w-75 h-auto" />
+        <div className={`col-12 col-md-6 ${styles.imgDesignDeMarque}`}>
+          <Image src={Img1} alt="" className="w-100 w-md-75 h-auto" />
         </div>
         <div className="col-12 col-md-6">
           <h2 className={styles.title2}>
@@ -55,8 +59,8 @@ const DesignDeMarque = () => {
           </h2>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description4}`}>
-        <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
+      <div className={`row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description4}`}>
+        <div className={`col-12 col-md-6 px-0 ${styles.imgDesignDeMarque}`}>
           <Image src={Img2} alt="" className="w-100 h-100 px-0" />
         </div>
         <div className={`col-12 col-md-6`}>
@@ -69,7 +73,7 @@ const DesignDeMarque = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description5}`}>
+      <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description5}`}>
         <div className={`col-12 col-md-6`}>
           <p>
             <span className={styles.subtitleDescription4}>Réduire les taux de rebond : </span>
@@ -79,12 +83,12 @@ const DesignDeMarque = () => {
             facile à utiliser.
           </p>
         </div>
-        <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
+        <div className={`col-12 col-md-6 px-0 ${styles.imgDesignDeMarque}`}>
           <Image src={Img3} alt="" className="w-100 h-100 px-0" />
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description5}`}>
-        <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
+      <div className={`row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description5}`}>
+        <div className={`col-12 col-md-6 px-0 ${styles.imgDesignDeMarque}`}>
           <Image src={Img4} alt="img-4" className="w-100 h-100 px-0" />
         </div>
         <div className={`col-12 col-md-6`}>
@@ -97,7 +101,7 @@ const DesignDeMarque = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description6}`}>
+      <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center mx-4 mx-md-0 px-0 ${styles.description6}`}>
         <div className={`col-12 col-md-6`}>
           <p>
             <span className={styles.subtitleDescription4}>Améliorer les taux de conversion : </span>
@@ -113,8 +117,8 @@ const DesignDeMarque = () => {
             votre entreprise, tandis qu’un site web mal conçu peut nuire à votre image de marque.
           </p>
         </div>
-        <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
-          <Image src={Img5} alt="Img5" className="w-75 h-auto px-0" />
+        <div className={`col-12 col-md-6 px-0 ${styles.imgDesignDeMarque}`}>
+          <Image src={Img5} alt="Img5" className="w-100 w-md-75 h-auto px-0" />
         </div>
       </div>
     </div>

@@ -2,9 +2,9 @@ import styles from '../styles/Portfolio.module.css';
 
 const Portfolio = () => {
   return (
-    <div className="container-fluid mt-5">
+    <div className={`container-fluid containerFluid pt-5 ${styles.bgColor}`}>
       <h2 className={`text-center ${styles.title}`}>Portfolio</h2>
-      <div className="row ps-5">
+      <div className="row ps-md-5">
         <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
           <li className="nav-item" role="presentation">
             <button
@@ -57,7 +57,7 @@ const Portfolio = () => {
           aria-labelledby="pills-web-tab"
           tabIndex="0"
         >
-          <div className="d-flex flex-wrap gap-4">
+          <div className="d-flex flex-column flex-sm-row flex-sm-wrap align-items-center align-items-md-start gap-4">
               <div className={`p-2 ${styles.tabContentItem}`}>Flex item Web with a lot of content</div>
               <div className={`p-2 ${styles.tabContentItem}`}>Flex item Web</div>
               <div className={`p-2 ${styles.tabContentItem}`}>Flex item Web</div>
@@ -75,7 +75,7 @@ const Portfolio = () => {
           aria-labelledby="pills-app-tab"
           tabIndex="0"
         >
-          <div className="d-flex flex-wrap gap-4">
+          <div className="d-flex flex-column flex-sm-row flex-sm-wrap align-items-center align-items-md-start gap-4">
             <div className={`p-2 ${styles.tabContentItem}`}>Flex item App with a lot of content</div>
             <div className={`p-2 ${styles.tabContentItem}`}>Flex item App</div>
             <div className={`p-2 ${styles.tabContentItem}`}>Flex item App</div>
@@ -93,7 +93,7 @@ const Portfolio = () => {
           aria-labelledby="pills-design-tab"
           tabIndex="0"
         >
-          <div className='d-flex flex-wrap gap-4'>
+          <div className='d-flex flex-column flex-sm-row flex-sm-wrap align-items-center align-items-md-start gap-4'>
               <div className={`p-2 ${styles.tabContentItem}`}>Flex item Design with a lot of content</div>
               <div className={`p-2 ${styles.tabContentItem}`}>Flex item Design</div>
               <div className={`p-2 ${styles.tabContentItem}`}>Flex item Design</div>

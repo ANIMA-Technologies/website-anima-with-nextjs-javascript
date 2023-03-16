@@ -11,10 +11,10 @@ import styles from '../../styles/DevLogiciel.module.css'
 
 const DevLogicielSurMesure = () => {
   return (
-    <div className="container-fluid">
-      <div className="row align-items-center justify-content-center px-4">
+    <div className="container-fluid containerFluid bgGradient">
+      <div className="row flex-column-reverse flex-md-row align-items-center justify-content-center px-4">
         <div className="col-12 col-md-6">
-          <h2 className={styles.title1}>
+          <h2 className={`d-none d-md-block ${styles.title1}`}>
             Développement <br />
             <span>de logiciels</span>
           </h2>
@@ -26,12 +26,16 @@ const DevLogicielSurMesure = () => {
           </p>
         </div>
         <div className={`col-12 col-md-6 ${styles.imgDevWeb}`}>
+          <h2 className={`d-md-none ${styles.title1}`}>
+            Développement <br />
+            <span>de logiciels</span>
+          </h2>
           <Image src={Bg} alt="" className="w-100 h-100" />
         </div>
       </div>
       <Ruban />
-      <div className="row align-items-center justify-content-center mt-5">
-        <div className="col-12 w-75">
+      <div className="row align-items-center justify-content-center mt-5 m-4 m-md-0">
+        <div className="col-12 px-0 w-md-75">
           <h2 className={`${styles.title2}`}>Avantage de Logiciel Sur Mesure</h2>
           <p className={`${styles.description2}`}>
             Les grandes étapes du développement d&apos;une application mobile sont importantes car
@@ -40,7 +44,7 @@ const DevLogicielSurMesure = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description3}`}>
+      <div className={`row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description3}`}>
         <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
           <Image src={Img1} alt="Img1" className="w-100 h-100 px-0" />
         </div>
@@ -54,7 +58,7 @@ const DevLogicielSurMesure = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description4}`}>
+      <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description4}`}>
         <div className={`col-12 col-md-6`}>
           <p>
             L&apos;amélioration de la productivité est un autre avantage de la création de logiciels.
@@ -67,7 +71,7 @@ const DevLogicielSurMesure = () => {
           <Image src={Img2} alt="Img2" className="w-100 h-100 px-0" />
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description5}`}>
+      <div className={`row align-items-center justify-content-center m-4 m-md-0 px-0 ${styles.description5}`}>
         <div className={`col-12 col-md-6 px-0 ${styles.imgDevWeb}`}>
           <Image src={Img3} alt="Img3" className="w-100 h-100 px-0" />
         </div>
@@ -81,7 +85,7 @@ const DevLogicielSurMesure = () => {
           </p>
         </div>
       </div>
-      <div className={`row align-items-center justify-content-center px-0 ${styles.description6}`}>
+      <div className={`row flex-column-reverse flex-md-row align-items-center justify-content-center mx-4 mx-md-0 px-0 ${styles.description6}`}>
         <div className={`col-12 col-md-6`}>
           <p>
             La gestion des données est également un avantage important de la création de logiciels.
