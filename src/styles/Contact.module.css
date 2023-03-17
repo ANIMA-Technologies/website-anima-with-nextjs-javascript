@@ -39,19 +39,47 @@
   height: 49px;
 }
 
-.bg img {
+.bg > img {
   width: 40%;
   object-fit: cover;
   height: 80%;
 }
 
+.square {
+  width: 60px;
+  height: 60px;
+  background-color: #D8156E;
+  position: absolute;
+  top: 11%;
+  left: 48%;
+  z-index: 3;
+}
+
+.bgImg {
+  z-index: 2;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .pinkBg {
   background-color: #d8156e;
-  position: absolute;
   width: 50%;
   top: 0;
   right: 0;
+  z-index: 1;
 }
+
+.pinkBg > div > div {
+  left: 0;
+  bottom: 30px;
+}
+
+.socialIconsOnMobile {
+  background-color: #D8156E;
+}
+
+
 
 /****************************************************/
 /********************RESPONSIVE**********************/
@@ -59,7 +87,7 @@
 
 @media screen and (max-width: 575px) {
   .title {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 45px;
     padding: 20px 0px;
     margin: 0;

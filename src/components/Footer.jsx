@@ -20,8 +20,9 @@ const Footer = () => {
               solution tel que le développement web, développement mobile et UI/UX design.
             </p>
             <form>
-              <input type="email" placeholder="Entrer votre adresse e-mail" className={styles.inputEmail} />
-              <button type="submit" className={styles.btnEmail}>E-mail</button>
+              <input type="email" name="email" placeholder="Entrer votre adresse e-mail" className={styles.inputEmail} />
+              <textarea rows={4} placeholder="Ecrire votre message" className={styles.textareaMessage}></textarea>
+              <button type="submit" name="message" className={styles.btnEmail}>Envoyer</button>
             </form>
           </div>
          

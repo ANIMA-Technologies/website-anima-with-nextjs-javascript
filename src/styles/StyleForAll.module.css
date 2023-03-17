@@ -5,3 +5,9 @@
   padding-bottom: 5px;
   background-color: rgba(31, 26, 75, 1);
 }
+
+@media screen and (max-width: 576px) {
+  .containerFluid {
+    padding: 0px 30px !important;
+  }
+}

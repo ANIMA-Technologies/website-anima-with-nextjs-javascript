@@ -100,7 +100,7 @@
   .title1 {
     font-size: 35px;
     line-height: 55px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .title2 {
@@ -113,15 +113,16 @@
     line-height: 45px;
   }
 
+  .description1,
   .description2 {
-    font-size: 18px;
-    line-height: 35px;
+    font-size: 14px;
+    line-height: 25px;
   }
 
   .description4,
   .description5,
   .description6 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
   }
 

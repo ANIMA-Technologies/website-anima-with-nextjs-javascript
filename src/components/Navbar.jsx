@@ -4,7 +4,7 @@ import styles from "../styles/Navbar.module.css";
 import style from "../styles/StyleForAll.module.css";
 const Navbar = () => {
   return (
-    <div className={`container-fluid px-4 px-md-5 containerFluid ${style.containerFluid}`}>
+    <div className={`container-fluid containerFluid ${style.containerFluid}`}>
       <nav className="navbar navbar-expand-lg navbar-light">
  
           <Link className="navbar-brand" href="/">
@@ -25,8 +25,8 @@ const Navbar = () => {
                   <i className="fa fa-angle-down ms-1 font-weight-bold" aria-hidden="true"></i>
                 </a>
                 <ul className={`dropdown-menu ${styles.dropdown1}`} aria-labelledby="navbarDropdown">
-                  <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem0}`} href="/developpement/web">Développement web</Link></li>
-                  <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem0}`} href="/developpement/mobile">Développement MOBILE</Link></li>
+                  <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem0}`} href="/developpement/web">Développement Web</Link></li>
+                  <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem0}`} href="/developpement/mobile">Développement Mobile</Link></li>
                   <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem0}`} href="/developpement/logiciels-sur-mesure">Développement de logiciels sur mesure</Link></li>
                   <li><Link className={`dropdown-item ${styles.dropdownItem} ${styles.dropdownItem0}`} href="/developpement/design-de-marque">Design de marque</Link></li>
                 </ul>

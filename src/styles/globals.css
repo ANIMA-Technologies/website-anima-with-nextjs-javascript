@@ -100,10 +100,7 @@ a {
   text-decoration: none;
 }
 
-.container-fluid {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-}
+
 
 .bgGradient {
   background: linear-gradient(101deg, #150b42 5.02%, #3d065f 96.31%);
@@ -114,3 +111,11 @@ a {
     padding: 0 !important;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .container-fluid {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+}
+

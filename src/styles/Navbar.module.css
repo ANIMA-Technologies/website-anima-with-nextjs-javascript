@@ -1,20 +1,20 @@
-.logo{
+.logo {
   width: 50px;
   height: 50px;
 }
-.navLink{
+.navLink {
   color: white !important;
   font-weight: bold;
 }
-.navItem{
+.navItem {
   margin-left: 30px;
   font-size: 14px !important;
 }
-.dropdownToggle::after{
+.dropdownToggle::after {
   display: none;
 }
 
-.dropdown1{
+.dropdown1 {
   /* display: block; */
   margin-left: -97px;
   margin-top: -3px;
@@ -22,35 +22,35 @@
   padding-bottom: 0;
   padding-right: 0;
 }
-.dropdown2{
+.dropdown2 {
   /* display: block; */
   margin-left: -228px;
   margin-top: -3px;
   padding-top: 0;
   padding-bottom: 0;
 }
-.dropdownItem{
+.dropdownItem {
   font-size: 15px;
   border-bottom: 0.5px solid #0000000a;
 }
-.dropdownItem:hover{
+.dropdownItem:hover {
   background-color: rgba(216, 21, 110, 0.4) !important;
   cursor: pointer;
 }
-.dropdownItem0{
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 20px;
-
+.dropdownItem0 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 20px;
 }
-.dropdownItem1{
-    padding-top: 4px;
-    padding-bottom: 4px;
-    /* padding-right: 207px; */
-
+.dropdownItem1 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /* padding-right: 207px; */
 }
-@media screen and (max-width: 576px){
-  .nav-item{
+
+@media screen and (max-width: 576px) {
+
+  .nav-item {
     margin-left: 0 !important;
   }
   .dropdownItem1 {
@@ -60,15 +60,15 @@
   }
   .dropdown1 {
     /* display: block; */
-    margin-left: 0; 
-  } 
-  .dropdown2{
+    margin-left: 0;
+  }
+  .dropdown2 {
     /* display: block; */
     margin-left: 0;
   }
 }
 @media screen and (min-width: 576px) {
-  .nav-item{
+  .nav-item {
     margin-left: 0 !important;
   }
   .dropdownItem1 {
@@ -78,91 +78,96 @@
   }
   .dropdown1 {
     /* display: block; */
-    margin-left: 0; 
-  } 
-  .dropdown2{
+    margin-left: 0;
+  }
+  .dropdown2 {
     /* display: block; */
     margin-left: 0;
   }
 }
 @media screen and (min-width: 768px) {
-  .nav-item{
+  .nav-item {
     margin-left: 0 !important;
   }
-  .dropdown-item{
+  .dropdown-item {
     color: rgba(0, 0, 0, 0.6);
-;
   }
-   .dropdownItem0{
+  .dropdownItem0 {
     padding-top: 4px;
     padding-bottom: 4px;
     padding-right: 0;
     font-weight: bold;
     font-family: sans-serif;
-}
- .dropdownItem1 {
+  }
+  .dropdownItem1 {
     padding-top: 4px;
     padding-bottom: 4px;
     padding-right: 0;
     font-weight: bold;
     font-family: sans-serif;
-}
+  }
   .dropdown1 {
     /* display: block; */
-    margin-left: 0; 
-  } 
-  .dropdown2{
+    margin-left: 0;
+  }
+  .dropdown2 {
     /* display: block; */
     margin-left: 0;
   }
 }
-@media screen and (min-width: 992px){
-  .logo{
-  width: 50px;
-  height: 50px;
-}
-.nav-link{
-  color: white !important;
-  font-weight: bold;
-  margin-left: 30px;
-}
-.nav-item{
-  margin-left: 30px;
-  font-size: 14px !important;
+
+.navLink,
+.dropdownItem {
+  font-family: 'Montserrat';
 }
 
-.dropdown1{
-  /* display: block; */
-  margin-left: -85px;
-  margin-top: -3px;
-  padding-top: 0;
-  padding-bottom: 0;
+.dropdownToggle::after {
+  display: none !important;
 }
-.dropdown2{
-  /* display: block; */
-  margin-left: -214px;
-  margin-top: -3px;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.dropdown-item{
-  border-bottom: 0.5px solid #0000000a;
-}
-.dropdown-item:hover{
-  background-color: rgba(216, 21, 110, 0.4) !important;
-  cursor: pointer;
-}
-.dropdownItem0{
-  padding-left: 20px;
-  padding-right: 25px;
-}
-.dropdownItem1{
+
+@media screen and (min-width: 992px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .nav-link {
+    color: white !important;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .nav-item {
+    margin-left: 30px;
+    font-size: 14px !important;
+  }
+
+  .dropdown1 {
+    /* display: block; */
+    margin-left: -85px;
+    margin-top: -3px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .dropdown2 {
+    /* display: block; */
+    margin-left: -214px;
+    margin-top: -3px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .dropdown-item {
+    border-bottom: 0.5px solid #0000000a;
+  }
+  .dropdown-item:hover {
+    background-color: rgba(216, 21, 110, 0.4) !important;
+    cursor: pointer;
+  }
+  .dropdownItem0 {
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+  .dropdownItem1 {
     padding-top: 4px;
     padding-bottom: 4px;
     padding-right: 218px;
-
-}
-.dropdownToggle::after{
-  display: none;
-}
+  }
 }
