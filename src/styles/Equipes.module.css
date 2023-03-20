@@ -1,0 +1,60 @@
+.swiperSlide {
+  display: flex;
+  align-items: center;
+}
+
+.membrePhoto {
+  object-fit: cover;
+  height: auto;
+}
+
+.photoMembreSlideActive {
+  top: -43px;
+  left: 43px;
+}
+
+.infoMembre {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: auto;
+  width: 45%;
+}
+
+.infoMembre .nomMembre {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.infoMembre .posteMembre {
+  /* P-Light */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 8px 0px;
+}
+
+.descriptionMembre {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  top: 150px;
+  /* left: 42px; */
+}
+
+.prevButton,
+.nextButton {
+  border: none;
+  background-color: transparent;
+}

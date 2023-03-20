@@ -100,8 +100,6 @@ a {
   text-decoration: none;
 }
 
-
-
 .bgGradient {
   background: linear-gradient(101deg, #150b42 5.02%, #3d065f 96.31%);
 }
@@ -114,8 +112,109 @@ a {
 
 @media screen and (min-width: 992px) {
   .container-fluid {
-  padding-left: 80px !important;
-  padding-right: 80px !important;
-}
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
 }
 
+.swiper-container {
+  height: 300px;
+}
+
+.swiper-wrapper {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide {
+  width: 80% !important;
+  height: 200px !important;
+}
+
+/* .swiper-slide.swiper-slide-prev.slide  {
+  width: 25% !important;
+} */
+
+.swiper-slide.swiper-slide-active.slide {
+  /* transition: transform 0.9s;
+  transform: scale(1.5); */
+  /* height: 433px !important; */
+  z-index: 999;
+}
+/* .swiper-slide.swiper-slide-next.slide  {
+  width: 25% !important;
+} */
+
+.swiper-slide.slide .profilMembre {
+  display: none;
+}
+
+.swiper-slide.swiper-slide-active.slide .photoMembreSlide {
+  display: none;
+}
+
+.swiper-slide.swiper-slide-active.slide .profilMembre {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 8px;
+}
+
+.swiper-slide.swiper-slide-active.slide .profilMembre .top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.swiper-slide.swiper-slide-active.slide .profilMembre .top img {
+  flex: 1;
+  object-fit: cover;
+  height: auto !important;;
+}
+
+.swiper-slide.swiper-slide-active.slide .profilMembre .top .infoMembre {
+  flex: 2;
+}
+
+.swiper-autoheight .swiper-wrapper {
+  align-items: center !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper {
+    /* margin: 100px 0px !important; */
+    overflow: visible !important;
+  }
+
+  .swiper-slide {
+    width: 200px !important;
+  }
+
+  .swiper-slide .navigationButton {
+    display: none !important;
+  }
+  
+
+  .swiper-slide-active {
+    width: 500px !important;
+    height: 433px !important;
+    background-color: #ffffff;
+  }
+
+  .swiper-slide-active .navigationButton {
+    display: block !important;
+    position: absolute;
+    bottom: -60px;
+    right: -50px;
+  }
+}

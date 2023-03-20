@@ -5,6 +5,8 @@ import "font-awesome/css/font-awesome.min.css";
 import { useEffect } from 'react';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import "swiper/swiper-bundle.css";
+
 import "../styles/Navbar.module.css";
 
 export default function App({ Component, pageProps }) {

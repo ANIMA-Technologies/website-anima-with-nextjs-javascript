@@ -1,6 +1,10 @@
 .equipe {
   background-color: #a5a5a5;
-  /* height: 100vh; */
+}
+
+.equipes {
+  margin-top: -200px;
+  margin-bottom: 100px;
 }
 
 .title {
